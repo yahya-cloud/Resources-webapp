@@ -1,0 +1,32 @@
+.headerContainer {
+  margin: 3.5rem 0rem;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  overflow: hidden;
+  padding: 0rem 27rem;
+}
+
+.logo {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  color: var(--color-blue3);
+  flex: 1;
+}
+
+.navbarContainer {
+  flex: 3;
+  flex-shrink: 0;
+  padding: 0rem 4rem;
+  color: var(--color-grey2);
+}
+
+.userInfo {
+  flex: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+  .headerContainer {
+    padding: 0rem 10rem;
+  }
+}

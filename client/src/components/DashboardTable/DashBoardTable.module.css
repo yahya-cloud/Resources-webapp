@@ -1,0 +1,16 @@
+.dashBoardTable {
+  box-shadow: var(--box-shadow);
+  border: none;
+}
+
+thead > tr th {
+  font-size: 1.3rem !important;
+}
+
+tbody tr td {
+  font-size: 1.3rem !important;
+}
+
+.actionBtnHeading {
+  text-align: center !important;
+}

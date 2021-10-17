@@ -1,0 +1,15 @@
+.AppContainer {
+  padding: 0rem 27rem 5rem 27rem;
+  height: 100vh;
+  margin-bottom: 10rem;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@media only screen and (max-width: 1000px) {
+  .AppContainer {
+    padding: 0rem 10rem 5rem 10rem;
+    margin-bottom: 10rem;
+  }
+}

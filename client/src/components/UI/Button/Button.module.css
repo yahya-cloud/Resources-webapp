@@ -1,0 +1,60 @@
+.buttonHeader{
+    padding: .8rem 3rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+
+.btnCard{
+    margin: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    color: var(--color-white);
+}
+
+
+
+/* button Styling */
+.button {
+    cursor: pointer;
+    border: none;
+    background-color: none;
+    outline: none;
+    font-family: inherit;
+    transition: all 0.2s ease;
+    color: var(--color-white);
+  }
+  
+  .btnSmall {
+    width: min-content;
+    padding: 0rem 0.5rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .btnGreen {
+    background-color: var(--color-green2);
+  }
+  .btnGreen:hover {
+    background-color: var(--color-green1);
+  }
+  
+  .btnRed {
+    background-color: var(--color-red1);
+  }
+  .btnRed:hover {
+    background-color: var(--color-red2);
+  }
+  
+  .btnBlue {
+    background-color: var(--color-blue3);
+  }
+  
+  .btnBlue:hover {
+    background-color: var(--color-blue2);
+  }

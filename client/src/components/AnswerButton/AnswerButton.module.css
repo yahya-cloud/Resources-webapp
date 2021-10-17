@@ -1,0 +1,23 @@
+.container {
+  position: absolute;
+  width: 20%;
+  height: 8rem;
+  background-color: var(--color-white);
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  justify-content: space-around;
+  transition: all .2s ;
+}
+.container h3 {
+  font-size: 1.4rem;
+  color: var(--color-grey2);
+}
+
+.hide{
+    top: -15%
+}

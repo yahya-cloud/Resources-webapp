@@ -1,0 +1,43 @@
+.mainForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+}
+.mainForm > button {
+    margin-top: 4rem;
+}
+
+.heading--form{
+    font-family: inherit;
+    font-weight: 400;
+    margin: 1rem;
+    font-size: 4.3rem;
+}
+
+.locationPara{
+    margin: 1.5rem;
+}
+
+
+@media only screen and (max-width:900px){
+    .form{
+       margin-bottom: 4rem;
+    }
+    .mainForm{
+    width: 90%;
+    }
+}
+
+@media only screen and (max-width:600px){
+
+    .form{
+        width: 100%;
+    }
+
+    .mainForm > button {
+        width: 60%;
+    }
+    
+
+}

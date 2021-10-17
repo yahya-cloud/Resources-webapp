@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  box-sizing: border-box;
+}
+body {
+  height: min-content;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --font-heading: 'Source Serif Pro', serif;
+  --font-text: 'Montserrat', sans-serif;
+
+  --color-black: #000;
+  --color-white: #fff;
+  --color-grey1: #c1c1c1;
+  --color-grey2: #333333;
+  --color-grey3: #e0e0e0;
+  --color-green2: #2e8473;
+  --color-green1: #20a58a;
+  --color-blue1: #19bfc5;
+  --color-blue2: #078cb1;
+  --color-blue3: #00b1e4;
+  --color-red1: #e63f3f;
+  --color-red2: #ff6464;
+
+  --box-shadow: 2px 3px 20px rgba(212, 212, 212, 0.96);
+}
+
+a {
+  text-decoration: none;
+}
+
+.gridContainer {
+  margin: 0 !important;
+  width: 100% !important;
+  margin-left: -32px !important;
+}
